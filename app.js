@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
         { 
             name: "Archi2", 
             coeff: 3,
-            inputs: ["exam", "tp", "td"],
-            formula: (values) => (values.exam * 2 + (values.tp + values.td) / 2) / 3
+            inputs: ["exam", "tp"],
+            formula: (values) => ((values.exam * 3) + values.tp)  / 4
         },
         { 
             name: "POO", 
