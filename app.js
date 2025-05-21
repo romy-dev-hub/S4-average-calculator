@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
             name: "POO", 
             coeff: 3,
             inputs: ["exam", "tp", "td"],
-            formula: (values) => (values.exam * 2 + (values.tp + values.td) / 2) / 3
+            formula: (values) => ((values.td + values.tp) + (values.exam * 3)) / 5
         },
         { 
             name: "BDD", 
